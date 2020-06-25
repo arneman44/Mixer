@@ -1,0 +1,87 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# LB1938FA-BH-SamacSys_Parts
+#
+DEF LB1938FA-BH-SamacSys_Parts IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "LB1938FA-BH-SamacSys_Parts" 1050 200 50 H V L CNN
+F2 "SOP65P490X110-8N" 1050 100 50 H I L CNN
+F3 "http://www.onsemi.com/pub/Collateral/ENA2041-D.PDF" 1050 0 50 H I L CNN
+F4 "1.1" 1050 -200 50 H I L CNN "Height"
+F5 "ON Semiconductor" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F6 "LB1938FA-BH" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F7 "863-LB1938FA-BH" 1050 -500 50 H I L CNN "Mouser Part Number"
+F8 "https://www.mouser.com/Search/Refine.aspx?Keyword=863-LB1938FA-BH" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F9 "8213052P" 1050 -700 50 H I L CNN "RS Part Number"
+F10 "http://uk.rs-online.com/web/p/products/8213052P" 1050 -800 50 H I L CNN "RS Price/Stock"
+F11 "70466086" 1050 -900 50 H I L CNN "Allied_Number"
+F12 "http://www.alliedelec.com/on-semiconductor-lb1938fa-bh/70466086/" 1050 -1000 50 H I L CNN "Allied Price/Stock"
+DRAW
+P 5 0 1 6 200 100 1000 100 1000 -400 200 -400 200 100 N
+X VCC 1 0 0 200 R 50 50 0 0 B
+X IN1 2 0 -100 200 R 50 50 0 0 B
+X IN2 3 0 -200 200 R 50 50 0 0 B
+X S-GND 4 0 -300 200 R 50 50 0 0 B
+X NC 5 1200 -300 200 L 50 50 0 0 B
+X OUT2 6 1200 -200 200 L 50 50 0 0 B
+X OUT1 7 1200 -100 200 L 50 50 0 0 B
+X P-GND 8 1200 0 200 L 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# PCA9615DP-SamacSys_Parts
+#
+DEF PCA9615DP-SamacSys_Parts IC 0 30 Y Y 1 F N
+F0 "IC" 1250 300 50 H V L CNN
+F1 "PCA9615DP-SamacSys_Parts" 1250 200 50 H V L CNN
+F2 "SOP50P490X110-10N" 1250 100 50 H I L CNN
+F3 "http://www.nxp.com/docs/en/data-sheet/PCA9615.pdf" 1250 0 50 H I L CNN
+F4 "Buffer, ReDriver 2 Channel 400kHz 10-TSSOP" 1250 -100 50 H I L CNN "Description"
+F5 "1.1" 1250 -200 50 H I L CNN "Height"
+F6 "Nexperia" 1250 -300 50 H I L CNN "Manufacturer_Name"
+F7 "PCA9615DP" 1250 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "N/A" 1250 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA" 1250 -600 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 1200 100 1200 -500 200 -500 200 100 N
+X VDD_(A) 1 0 0 200 R 50 50 0 0 U
+X VDD_(B) 10 1400 0 200 L 50 50 0 0 U
+X SDA 2 0 -100 200 R 50 50 0 0 U
+X EN 3 0 -200 200 R 50 50 0 0 U
+X SCL 4 0 -300 200 R 50 50 0 0 U
+X VSS 5 0 -400 200 R 50 50 0 0 U
+X DSCLM 6 1400 -400 200 L 50 50 0 0 U
+X DSCLP 7 1400 -300 200 L 50 50 0 0 U
+X DSDAP 8 1400 -200 200 L 50 50 0 0 U
+X DSDAM 9 1400 -100 200 L 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
+# PEC11R-4015F-S0024-SamacSys_Parts
+#
+DEF PEC11R-4015F-S0024-SamacSys_Parts U 0 30 Y Y 1 F N
+F0 "U" 650 300 50 H V L CNN
+F1 "PEC11R-4015F-S0024-SamacSys_Parts" 650 200 50 H V L CNN
+F2 "PEC12R-4XXXF-SXXXX_1" 650 100 50 H I L CNN
+F3 "https://www.bourns.com/docs/Product-Datasheets/pec11R.pdf" 650 0 50 H I L CNN
+F4 "Bourns 24 Pulse Incremental Mechanical Rotary Encoder with a 6 mm Flat Shaft (Not Indexed), Through Hole" 650 -100 50 H I L CNN "Description"
+F5 "Bourns" 650 -300 50 H I L CNN "Manufacturer_Name"
+F6 "PEC11R-4015F-S0024" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F7 "652-PEC11R-4015F-S24" 650 -500 50 H I L CNN "Mouser Part Number"
+F8 "https://www.mouser.com/Search/Refine.aspx?Keyword=652-PEC11R-4015F-S24" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F9 "7377739P" 650 -700 50 H I L CNN "RS Part Number"
+F10 "http://uk.rs-online.com/web/p/products/7377739P" 650 -800 50 H I L CNN "RS Price/Stock"
+F11 "70407905" 650 -900 50 H I L CNN "Allied_Number"
+F12 "https://www.alliedelec.com/bourns-pec11r-4015f-s0024/70407905/" 650 -1000 50 H I L CNN "Allied Price/Stock"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+X A 1 0 0 200 R 50 50 0 0 U
+X B 2 0 -100 200 R 50 50 0 0 U
+X C 3 0 -200 200 R 50 50 0 0 U
+X 1 4 800 0 200 L 50 50 0 0 U
+X 2 5 800 -100 200 L 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
+#End Library

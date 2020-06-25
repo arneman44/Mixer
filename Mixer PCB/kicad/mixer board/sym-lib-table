@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name teensy-rescue)(type Legacy)(uri ${KIPRJMOD}/teensy-rescue.lib)(options "")(descr ""))
+)

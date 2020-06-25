@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name cherry)(type KiCad)(uri "Y:/Projects/01 Mixer/Mixer PCB teensy v3/teensy/mixer button board/Cherry_MX_SK6812_BS")(options "")(descr ""))
+)
