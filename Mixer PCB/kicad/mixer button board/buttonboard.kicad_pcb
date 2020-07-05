@@ -97,7 +97,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "C:/Users/arne-/Desktop/Mixergerber/"))
+      (outputdirectory "../GRBR_Button/"))
   )
 
   (net 0 "")
@@ -3426,7 +3426,7 @@
   (segment (start 233.604 213) (end 233.302 213.302) (width 0.25) (layer B.Cu) (net 45))
   (segment (start 235 213) (end 233.604 213) (width 0.25) (layer B.Cu) (net 45))
 
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5EFFF9B0) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
